@@ -1,2 +1,2 @@
-# Projeto01-HTML-CSS
-Dois primeiros projetos utilizando HTML e CSS
+# Projetos01-HTML-CSS
+Três primeiros projetos utilizando HTML e CSS
