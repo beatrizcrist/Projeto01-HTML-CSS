@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="site para testar tags HTML e estilização de paginas com CSS">
+    <meta name="keywords" content="teste, CSS, HTML">
+    <meta name="author" content="Beatriz Cristina dos Santos">
+    <title>Testando tags de html</title>
+    <link rel="shortcut icon" href="img/icons8-poodle-16.png" type="image/x-icon">
+    <style>
+
+        /* css reset para limpar os estilos de tudo para nao ficr com espaço aleatorio que os browsers dao. * = seleciona tudo */
+        *{
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        body{      
+            font-size: 20px; 
+            font-family: verdana ;
+            color: lightcoral; 
+            background-color: linen;
+            background-image: url(img/folha.jfif);
+            background-repeat: no-repeat; /* pra que a imagem de fundo nao se repita */
+            background-position: center 50%; /* posicionar a imagem de fundo */
+            background-attachment: fixed; /* a imagem de fundo fica parada */
+            background-size: cover; /* a imagem cobre todo o fundo da tela */
+        }
+
+        h1{
+            font-size: 18px;
+            font-family: tahoma;
+            color: #fff;
+            background-color: lightcoral;
+            text-align: center; /* alinhar os textos */
+            font-weight: normal; /* tirar o legrito */
+        }
+
+        h3{
+            width: 600px; /*largura*/
+            background-color: lightcoral;
+            color:#997a00;
+            text-decoration: underline; /*sublinhado*/
+            font-size: 20pt;
+        }
+
+        /* toda classe começa com . */
+        .diferente{
+            background-color: #f29203;
+            color:#fff
+        }
+
+        .pequena{
+            width: 200px;
+            height: 150px; /* altura */
+        }
+
+        .média{
+            width: 300px;
+            height: 250px; /* altura */
+        }
+        .grande{
+            width: 400px;
+            height: 300px; /* altura */
+        }
+
+        /* renderiza o que esta por ultimo */
+        h4, h5, h6{
+            width: 800px;
+            font-size: 30px;
+            text-align: center;
+            background-color: greenyellow;
+            color: green;
+        }
+
+        h4{
+            background-color: blueviolet;
+            margin: 30px; /* espaço para fora da area,mas joga esse valor para cada lado do componete */
+        }
+
+        h5{
+            margin-left: 200px; /* espaco para esquerda */
+        }
+
+        h6{ /* topo, direita, baixo, esquerda, sentido horario */
+            /* top, right, bottom, left */
+            margin: 20px 0 50px 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>testando titulos</h1>
+    <h2>testando titulos</h2>
+
+    <h3>testando titulos</h3>
+    <h3 class="diferente">testando titulos</h3>
+    <h3>testando titulos</h3>
+
+    <h4>testando titulos</h4>
+    <h5>testando titulos</h5>
+    <h6>testando titulos</h6>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Quae deleniti tempore corrupti praesentium fugiat eaque, dignissimos porro? <br> veritatis dolorum, dolor dicta in reiciendis voluptate rerum nesciunt a inventore laudantium.</p>
+
+    <img src="img/transferir (9).jfif" alt="doguinho andando feliz" class="pequena">
+
+    <img src="img/transferir.png" alt="gatinho laranja fofinho" class="media">
+
+    <img src="img/transferir (1).png" alt="tartaruguinha sorridente" class="grande">
+
+</body>
+</html>
