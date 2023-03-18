@@ -1,2 +1,2 @@
 # Projeto01-HTML-CSS
-Primeiro projeto utilizando HTLM e CSS
+Dois primeiros projetos utilizando HTML e CSS
